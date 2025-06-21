@@ -25,10 +25,11 @@ const Nav = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <NavLink
+                end
+                to="/todo/"
                 className={({ isActive }) =>
                   "nav-link" + (isActive ? " active" : "")
                 }
-                to="/todo/"
               >
                 Home
               </NavLink>
