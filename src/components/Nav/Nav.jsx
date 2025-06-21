@@ -28,7 +28,7 @@ const Nav = () => {
                 className={({ isActive }) =>
                   "nav-link" + (isActive ? " active" : "")
                 }
-                to="/todo"
+                to="/todo/"
               >
                 Home
               </NavLink>
