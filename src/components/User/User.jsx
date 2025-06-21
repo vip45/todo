@@ -6,7 +6,7 @@ const User = () => {
       <div className="user-profile">
         <img
           className="img-fluid"
-          src="/resources/images/vipin.png"
+          src="./resources/images/vipin.png"
           alt="Vipin"
         />
       </div>

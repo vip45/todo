@@ -13,7 +13,7 @@ const ToDo = ({ tasks }) => {
           {tasks.length === 0 ? (
             <div className="no-task text-center">
               <img
-                src="/resources/images/cat.gif"
+                src="./resources/images/cat.gif"
                 alt="No tasks"
                 className="img-fluid"
               />

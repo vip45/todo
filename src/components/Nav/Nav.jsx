@@ -28,7 +28,7 @@ const Nav = () => {
                 className={({ isActive }) =>
                   "nav-link" + (isActive ? " active" : "")
                 }
-                to="/"
+                to="/todo"
               >
                 Home
               </NavLink>
@@ -38,7 +38,7 @@ const Nav = () => {
                 className={({ isActive }) =>
                   "nav-link" + (isActive ? " active" : "")
                 }
-                to="/profile"
+                to="/todo/profile"
               >
                 Profile
               </NavLink>
@@ -48,7 +48,7 @@ const Nav = () => {
                 className={({ isActive }) =>
                   "nav-link" + (isActive ? " active" : "")
                 }
-                to="/Login"
+                to="/todo/Login"
               >
                 Sign Up
               </NavLink>
